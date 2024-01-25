@@ -7,6 +7,8 @@ public class First_TestNG_Class {
 	
 	@Test   //It acts like a main method
 	
+	
+	
 	public void login() {
 		
 		Reporter.log("This is my 1st Test case",true);
