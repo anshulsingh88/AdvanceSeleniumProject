@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.testScripts.TC002_AddToCart_Test">
+        <methods>
+          <include name="addTOCart"/>
+          <include name="logout"/>
+          <include name="browserOpen"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.testScripts.TC002_AddToCart_Test -->
+      <class name="com.testScripts.TC003_RemoveFromCart">
+        <methods>
+          <include name="logout"/>
+          <include name="removeFromCart"/>
+          <include name="browserOpen"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.testScripts.TC003_RemoveFromCart -->
+      <class name="com.testScripts.TC001_Search_Test">
+        <methods>
+          <include name="logout"/>
+          <include name="TC001"/>
+          <include name="browserOpen"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testScripts.TC001_Search_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

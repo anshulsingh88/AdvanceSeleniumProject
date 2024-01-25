@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T01:54:26 IST" name="Default suite" finished-at="2024-01-25T01:55:06 IST" duration-ms="39422">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T01:54:26 IST" name="Default test" finished-at="2024-01-25T01:55:06 IST" duration-ms="39422">
+      <class name="practice_Programm.Calendar_Popup_Pom_Class_Stale_Resolve">
+        <test-method signature="calendar_Popup()[pri:0, instance:practice_Programm.Calendar_Popup_Pom_Class_Stale_Resolve@25641d39]" started-at="2024-01-25T01:54:26 IST" name="calendar_Popup" finished-at="2024-01-25T01:55:06 IST" duration-ms="39320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calendar_Popup -->
+      </class> <!-- practice_Programm.Calendar_Popup_Pom_Class_Stale_Resolve -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
